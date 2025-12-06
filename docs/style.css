@@ -612,3 +612,18 @@ html {
     background: var(--primary-gold);
     border-radius: 5px;
 }
+
+.map-link {
+    color: var(--primary-gold);
+    margin-left: 8px;
+    display: inline-flex;
+    align-items: center;
+    transition: var(--transition);
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.map-link:hover {
+    transform: scale(1.2);
+    color: var(--primary-pink);
+}
